@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
     <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
+        <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -20,15 +20,15 @@
             </div>
 
             <div class="slider_container">
-                <div class="current-time"></div>
+                <div class="current-time">00:00</div>
                 <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
-                <div class="total-duration"></div>
+                <div class="total-duration">00:00</div>
             </div>
 
             <div class="slider_container">
-                <i></i>
+                <i class="fa fa-volume-down"></i>
                 <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
-                <i></i>
+                <i class="fa fa-volume-up"></i>
             </div>
 
             <div class="control-button">
