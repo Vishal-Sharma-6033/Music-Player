@@ -47,3 +47,4 @@ const music_list = [
     }
 ];
 
+loadTrack(track_index);
